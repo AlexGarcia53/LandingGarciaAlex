@@ -1,0 +1,70 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	  -webkit-text-stroke: .1px black;
+  color: white; 
+
+	
+}
+
+#main { background: #eee}
+
+#header {
+	height: 180px;
+	width: 100%;
+	margin-top: -8px;
+	margin-left: -8px;
+	background: url(../img/fondo.jpg) 100% no-repeat;
+	background-size: cover;
+}
+
+#logo {
+	height: 155px;
+	width: 155px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#iconoCorreo {
+	margin-left: 30px;
+	margin-top: -70px;
+	float: right;
+	margin-right: 30px;
+	font-family: 'American Typewriter', Courier, monoscape;
+	height: 100px;
+	width: 100px;
+}
+
+#footer {
+	margin-top: 200px;
+	height: 120px;
+	width: 100%;
+    margin-left: -8px;
+	clear: left;
+	background: #1540a3;
+}
+
+#indexRightColumn {
+	height: 110%;
+	width: 220px;
+    margin-left: -8px;
+	float: left;
+	background: #008ae6;
+	text-align: left;
+	font-size: 30px;
+}
+
+
+.categoryImage {
+	margin-top: 35px;
+	border: solid 4px #555;
+}
+
+a:link{color: black; text-decoration-line: none;}
+a:visited{color: #cccccc; text-decoration-line: none; font-weight: normal;}
+a:hover{color: white; text-decoration-line: none; font-weight: bold;}
+a:active{color: white; text-decoration-line: none;}
